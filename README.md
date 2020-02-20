@@ -1,3 +1,3 @@
 # BondeSjakk
 ## Om
-Jeg valgte å programmere bondesjakk grunnet vgs økter med en kompis!
+Øving 4 i Objektorientert programmering
