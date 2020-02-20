@@ -21,24 +21,25 @@ public class BSjakkBrett {
 		this.board[x][y] = player;
 	}
 
-	/*
+	
 	public boolean isBoardFull() {
 		boolean iFull = true;
 		
 		for(int i=0; i<3;i++) {  
  			for(int j=0; j<3;j++) {
- 				if(board[i][j].equals("")) {
+ 				if(board[i][j].equals(" ")) {
  					iFull = false;
  				}
  			}
 		}
 		return iFull;
 	}
-	*/
+	
+	
 	
 	private boolean checkRows() {
 		for(int i=0;i<3;i++) {
-			if(board[i][0].equals("x vant!") && board[i][1].equals("x") && board[i][2].equals("x")) {
+			if(board[i][0].equals("x") && board[i][1].equals("x") && board[i][2].equals("x")) {
 				return true;
 			}
 			else if(board[i][0].equals("o") && board[i][1].equals("o") && board[i][2].equals("o")){
@@ -85,7 +86,7 @@ public class BSjakkBrett {
 			this.board = board;
 		}
 		
-		public String[][] getBoard(){
-			return this.board;
-		}
+		
+		
+		
 }
