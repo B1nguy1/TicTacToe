@@ -1,3 +1,2 @@
-# BondeSjakk
-## Spillregler
-Skrive senere..
+# TicTacToe
+
